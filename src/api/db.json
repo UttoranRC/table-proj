@@ -1,0 +1,31 @@
+{
+    "employees": [
+        {
+            "empId": "2143658",
+            "empName": "Alice",
+            "dob": "01/01/1990",
+            "fName": "Alice",
+            "lName": "Munshi",
+            "doj": "02/01/2023",
+            "location": "Kolkata"
+        },
+        {
+            "empId": "2233445",
+            "empName": "Bob",
+            "dob": "07/09/1992",
+            "fName": "Bob",
+            "lName": "Biswas",
+            "doj": "02/01/2023",
+            "location": "Bengaluru"
+        },
+        {
+            "empId": "2555537",
+            "empName": "Uttoran",
+            "dob": "19/04/1995",
+            "fName": "Uttoran",
+            "lName": "Roychowdhury",
+            "doj": "02/01/2023",
+            "location": "Pune"
+        }
+    ]
+}

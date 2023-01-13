@@ -24,7 +24,7 @@ const ProfilePage: React.FC = () => {
                     </div>
             }
             <div>
-                <Link to='/'>Back to Main Page</Link>
+                <Link to='/table-proj/'>Back to Main Page</Link>
             </div>
         </div>
     )

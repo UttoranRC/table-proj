@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       {/* <Router> */}
         <Routes>
-          <Route exact path="/" element={<MainPage />} />
-          <Route path="/profile/:id" element={<ProfilePage />} />
+          <Route exact path="/table-proj/" element={<MainPage />} />
+          <Route path="/table-proj/profile/:id" element={<ProfilePage />} />
         </Routes>
       {/* </Router> */}
     </div>

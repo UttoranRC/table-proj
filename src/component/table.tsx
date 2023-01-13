@@ -42,7 +42,7 @@ const EmpTable: React.FC<TableData> = ({ rows }) => {
                                 <TableCell>{row.empId}</TableCell>
                                 <TableCell>{row.empName}</TableCell>
                                 <TableCell>{row.dob}</TableCell>
-                                <TableCell><Link to={`/profile/${row.empId}`}>See Profile</Link></TableCell>
+                                <TableCell><Link to={`/table-proj/profile/${row.empId}`}>See Profile</Link></TableCell>
                             </TableRow>
                         ))
                     }

@@ -9,15 +9,22 @@ export function useTable() {
     }, []);
 
 
-    const getTable = async() => {
+    const getTable = async () => {
         try {
-            const res = (await fetch("http://localhost:5000/employees")).json().then(result => {
+            const res = (await fetch("https://my-json-server.typicode.com/UttoranRC/table-backend/employees", {
+                method: 'GET',
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Accept': 'application/json;odata.metadata=full',
+                    'Content-Type': 'application/json'
+                }
+            })).json().then(result => {
                 setTabData(result)
                 console.log(result);
             });
             // console.log(res.json())
         } catch (error) {
-            
+
         }
     }
 
